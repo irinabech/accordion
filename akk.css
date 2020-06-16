@@ -1,0 +1,66 @@
+.gallery,
+.gallery ul {
+  display: block;
+  position:relative;
+  list-style: none;
+  background:#fff;
+  margin: 0;
+  padding: 0;
+  height:700px; 
+  width:auto;
+}
+.gallery ul li {
+  display: block;
+  position:relative;
+  float: left;
+  width: 60px; 
+  overflow: hidden;
+}
+.gallery ul li a {
+  display:block;
+  text-decoration: none;
+  background:#fff;
+  border-right: 1px solid #fff;
+  border-left: 2px solid #fff;
+  cursor:pointer;
+  height: 500px; 
+  padding: 0 !important;
+  width: 100%;
+}
+.gallery ul li span {
+  display: none; 
+  position: absolute; 
+  top: 450px;
+  left: 2px;
+  background: linear-gradient(to right, rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
+  color: #fff;
+  font: normal bold 14px Arial;
+  text-align: left;
+  white-space: nowrap;
+  padding: 5px 15px;
+  width: 100%;
+}
+.gallery ul li#photo1 a {
+  background: url("./img/1.jpg") no-repeat;
+}
+.gallery ul li#photo2 a {
+  background: url("./img/2.jpg") no-repeat;
+}
+.gallery ul li#photo3 a {
+  background: url("./img/3.jpg") no-repeat;
+}
+.gallery ul li#photo4 a {
+  background: url("./img/4.jpg") no-repeat;
+}
+.gallery ul li#photo5 a {
+  background: url("./img/5.jpg") no-repeat;
+}
+.gallery ul li#photo6 a {
+  background: url("./img/6.jpg") no-repeat;
+}
+.gallery ul li#photo7 a {
+  background: url("./img/7.jpg") no-repeat;
+}
+.gallery ul li#photo8 a {
+  background: url("./img/8.jpg") no-repeat;
+}
